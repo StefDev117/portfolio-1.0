@@ -1,0 +1,1038 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+::before,
+::after,
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 26px;
+  opacity: 0.4;
+}
+
+h3 {
+  font-size: 28px;
+  margin: 0 0 12px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.html {
+  color: #c84720;
+  font-weight: 700;
+}
+
+.css {
+  color: #1572b6;
+  font-weight: 700;
+}
+
+.sass {
+  color: #c75093;
+  font-weight: 700;
+}
+
+.javascript {
+  color: #e2ca53;
+  font-weight: 700;
+}
+
+.react {
+  color: #04a0c9;
+  font-weight: 700;
+}
+
+.nodeJs {
+  color: #266618;
+  font-weight: 700;
+}
+
+.github {
+  color: #f4f4f4;
+  font-weight: 700;
+}
+
+.bigFont {
+  font-size: 42px;
+}
+
+body {
+  background: #020426;
+  font-family: "Courier New", Courier, monospace;
+  color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .dp-none {
+  display: none;
+}
+
+body #hide-body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 40;
+  display: none;
+}
+
+body main {
+  max-width: 1920px;
+  width: 92%;
+  padding: 10px 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 0 50px;
+}
+
+body main section#profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 30px;
+}
+
+body main section#profile .name {
+  white-space: nowrap;
+  margin: 0 50px 0;
+  min-height: 125px;
+}
+
+body main section#profile .img-profile {
+  height: 300px;
+  border-radius: 50%;
+  background: #272727;
+  -webkit-box-shadow: 4px 4px 25px 11px rgba(0, 0, 0, 0.8);
+          box-shadow: 4px 4px 25px 11px rgba(0, 0, 0, 0.8);
+  aspect-ratio: 1/1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background: #272727;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #1d1a1a), color-stop(98%, #272727));
+  background: linear-gradient(90deg, #1d1a1a 20%, #272727 98%);
+}
+
+body main section#profile .img-profile img {
+  border-radius: 50%;
+  height: 90%;
+  -o-object-fit: center contain cover;
+     object-fit: center contain cover;
+}
+
+body main section#cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 98%;
+  padding: 1% 0.5%;
+  line-height: 24px;
+  position: relative;
+  margin: 0px 0 100px;
+}
+
+body main section#cv .abm-experiences {
+  width: 64%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main section#cv .abm-experiences .about-me {
+  margin: 0 0 20px;
+  padding: 1% 0% 0%;
+}
+
+body main section#cv .abm-experiences .about-me h3 {
+  margin: 10px 0;
+}
+
+body main section#cv .abm-experiences .about-me .interval {
+  background: #f1f1f1;
+  width: 90%;
+  height: 3px;
+  margin: 30px auto 0px;
+}
+
+body main section#cv .abm-experiences .xp-hobbies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .xp {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-right: 3px solid white;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .xp .techList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  grid-gap: 5px;
+  margin: 10px 0 10px;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .xp .btnShadow {
+  color: #f1f1f1;
+  font-size: 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  background: #272727;
+  padding: 4px;
+  margin: 0 2px;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .xp .btnShadow::before {
+  z-index: -1;
+  position: absolute;
+  left: -2px;
+  bottom: -2px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .xp .html::before {
+  background: #c84720;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .xp .css::before {
+  background: #1572b6;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .xp .sass::before {
+  background: #c75093;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .xp .javascript::before {
+  background: #e2ca53;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .xp .react::before {
+  background: #04a0c9;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .xp .nodeJs::before {
+  background: #266618;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .xp .github::before {
+  background: #f4f4f4;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .all-skills {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .all-skills .softSkills-hobbies,
+body main section#cv .abm-experiences .xp-hobbies .all-skills .languages-list {
+  width: 48%;
+  padding: 0 1.4%;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .all-skills .softSkills-hobbies h3,
+body main section#cv .abm-experiences .xp-hobbies .all-skills .languages-list h3 {
+  margin: 0 0 25px;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .all-skills .softSkills-hobbies ul li,
+body main section#cv .abm-experiences .xp-hobbies .all-skills .languages-list ul li {
+  margin: 14px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .all-skills .softSkills-hobbies ul li .logos,
+body main section#cv .abm-experiences .xp-hobbies .all-skills .languages-list ul li .logos {
+  width: 22px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .all-skills .softSkills-hobbies ul li p,
+body main section#cv .abm-experiences .xp-hobbies .all-skills .languages-list ul li p {
+  margin: 0 10px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+body main section#cv .abm-experiences .xp-hobbies .all-skills .softSkills-hobbies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main section#cv .skills {
+  padding: 1% 0;
+  width: 35%;
+}
+
+body main section#cv .skills ul {
+  margin: 2% 0;
+}
+
+body main section#cv .skills ul li {
+  background: #272727;
+  list-style-type: none;
+  margin: 6px 0;
+  padding: 2% 1%;
+}
+
+body main section#cv .btn-ddl-cv {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  border-radius: 20px;
+  border: 2.5px solid #f1f1f1;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  color: #f1f1f1;
+  cursor: pointer;
+  -webkit-transform: translateX(-50%) translateY(100%);
+          transform: translateX(-50%) translateY(100%);
+}
+
+body main section#cv .btn-ddl-cv h4 {
+  padding: 20px 40px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+body main section#cv .btn-ddl-cv h4 i {
+  margin-left: 10%;
+}
+
+body main section#projects {
+  margin: 25px 0;
+  padding: 1% 2%;
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 300px;
+  position: relative;
+}
+
+body main section#projects #modal-screenshots {
+  position: absolute;
+  border-radius: 1%;
+  min-height: 200px;
+  max-width: 1000px;
+  z-index: 70;
+  top: 12%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+body main section#projects #modal-screenshots .img-modal-screenshot {
+  border-radius: 1%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+body main section#projects #modal-screenshots .btn-right-screens,
+body main section#projects #modal-screenshots .btn-left-screens {
+  position: absolute;
+  height: 50px;
+  top: 50%;
+  border: none;
+  background: #272727;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  z-index: 500;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main section#projects #modal-screenshots .btn-right-screens img,
+body main section#projects #modal-screenshots .btn-left-screens img {
+  height: 60%;
+  width: 60%;
+}
+
+body main section#projects #modal-screenshots .btn-left-screens {
+  left: -3%;
+}
+
+body main section#projects #modal-screenshots .btn-right-screens {
+  right: -3%;
+}
+
+body main section#projects .parent-projects-list {
+  position: relative;
+  margin: 50px 0;
+}
+
+body main section#projects .parent-projects-list .btn-left,
+body main section#projects .parent-projects-list .btn-right {
+  z-index: 50;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 0.5;
+  height: 30%;
+  display: none;
+}
+
+body main section#projects .parent-projects-list .btn-left img,
+body main section#projects .parent-projects-list .btn-right img {
+  display: none;
+  position: relative;
+  color: pink;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+body main section#projects .parent-projects-list .btn-left:hover,
+body main section#projects .parent-projects-list .btn-right:hover {
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transform: translateY(-50%) scale(1.25);
+          transform: translateY(-50%) scale(1.25);
+}
+
+body main section#projects .parent-projects-list .btn-left {
+  left: 4%;
+}
+
+body main section#projects .parent-projects-list .btn-right {
+  right: 4%;
+}
+
+body main section#projects .parent-projects-list .projects-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #f1f1f1;
+  width: 100%;
+  min-height: 280px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 4%;
+          column-gap: 4%;
+  row-gap: 60px;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body main section#projects .parent-projects-list .projects-list .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #272727;
+  min-width: 450px;
+  width: 450px;
+  height: 300px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 4px 25px 11px rgba(0, 0, 0, 0.8);
+          box-shadow: 4px 4px 25px 11px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+body main section#projects .parent-projects-list .projects-list .project:hover .click-for-screenshots {
+  display: block;
+}
+
+body main section#projects .parent-projects-list .projects-list .project .btn-project {
+  background: #020426;
+  width: 34%;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main section#projects .parent-projects-list .projects-list .project .btn-project i {
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+body main section#projects .parent-projects-list .projects-list .project .btn-project:hover {
+  scale: 1.1;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  color: #020426;
+  background: #f1f1f1;
+  border: 2px solid #020426;
+}
+
+body main section#projects .parent-projects-list .projects-list .project .btn-project:active {
+  scale: 1;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+body main section#projects .parent-projects-list .projects-list .project .img-project {
+  height: auto;
+  height: 40%;
+  max-width: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: relative;
+}
+
+body main section#projects .parent-projects-list .projects-list .project .techlist-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  right: 4%;
+  bottom: 1%;
+  width: auto;
+  height: auto;
+}
+
+body main section#projects .parent-projects-list .projects-list .project .techlist-div .tech-logo {
+  margin: 5px;
+  padding: 10%;
+  height: 20px;
+  width: 20px;
+  border-radius: 8px;
+  background: #000;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+body main section#projects .parent-projects-list .projects-list .project .click-for-screenshots {
+  position: absolute;
+  -webkit-transform: translateY(150%);
+          transform: translateY(150%);
+  bottom: 0;
+  display: none;
+  opacity: 0.5;
+}
+
+body footer {
+  max-width: 1920px;
+  width: 50%;
+  min-width: 420px;
+  padding: 10px 1%;
+  min-height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  border-radius: 8px;
+  color: #f1f1f1;
+}
+
+body footer .main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer .main-footer .mail-footer {
+  width: 40%;
+  contain: content;
+  margin: 12px 0;
+}
+
+body footer .main-footer h4 {
+  font-size: 42px;
+}
+
+body footer .main-footer h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+body footer .main-footer div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+}
+
+body footer .main-footer div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer .main-footer p {
+  opacity: 0.4;
+  font-size: 20px;
+}
+
+body footer .main-footer .copy-txt {
+  cursor: pointer;
+}
+
+body footer .div-btns-footer {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer .div-btns-footer button {
+  background: #272727;
+  background: none;
+  position: relative;
+  margin: 2% 15%;
+  border: none;
+  border-radius: 9999px;
+  padding: 0 2%;
+}
+
+body footer .div-btns-footer button:hover {
+  scale: 1.05;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+}
+
+body footer .div-btns-footer button:hover i,
+body footer .div-btns-footer button:hover span {
+  color: #04a0c9;
+}
+
+body footer .div-btns-footer button a {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+body footer .div-btns-footer button a i {
+  font-size: 34px;
+  padding: 5px 5px 5px 0px;
+  margin: 5px;
+}
+
+body footer .div-btns-footer button a span {
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 9999px;
+  font-size: 18px;
+}
+
+.no-display {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  body main section#cv .abm-experiences .xp-hobbies .all-skills {
+    padding: 0 2%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+  }
+  body main section#cv .abm-experiences .xp-hobbies .all-skills .languages-list {
+    width: 96%;
+  }
+  body main section#cv .abm-experiences .xp-hobbies .all-skills .softSkills-hobbies {
+    width: 96%;
+    height: auto;
+  }
+  body main section#cv .abm-experiences .xp-hobbies .all-skills .softSkills-hobbies .softSkills {
+    margin: 0 0 10px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  body main section#cv {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  body main section#cv .abm-experiences,
+  body main section#cv .skills {
+    width: 100%;
+    margin: 50px 0;
+  }
+  body main section#projects .projects-list {
+    -webkit-column-gap: 1%;
+            column-gap: 1%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  body main section#projects .parent-projects-list {
+    height: auto;
+    width: 450px;
+    overflow: hidden;
+  }
+  body main section#projects .parent-projects-list .btn-left,
+  body main section#projects .parent-projects-list .btn-right {
+    display: block;
+    z-index: 50;
+  }
+  body main section#projects .parent-projects-list .btn-left img,
+  body main section#projects .parent-projects-list .btn-right img {
+    z-index: 50;
+    display: block;
+  }
+  body main section#projects .parent-projects-list .projects-list {
+    padding: 0;
+    -webkit-column-gap: 0;
+            column-gap: 0;
+    height: 300px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  body main section#projects .parent-projects-list .projects-list .project {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  body main section#profile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  body main section#profile .name {
+    height: auto;
+    margin: 0 0 34px;
+  }
+  body main section#cv {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main section#cv .abm-experiences {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body main section#profile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin: 0 0 25px;
+  }
+  body main section#profile .name {
+    height: auto;
+    margin: 0 0 30px;
+  }
+  body main section#cv {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main section#cv .abm-experiences {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main section#cv .abm-experiences .xp-hobbies {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main section#cv .abm-experiences .xp-hobbies .xp {
+    width: 96%;
+    margin: 0 0 20px;
+    padding: 2%;
+    border-right: none;
+  }
+  body main section#cv .abm-experiences .xp-hobbies .all-skills {
+    width: 96%;
+    margin: auto;
+    padding: 2%;
+  }
+  body main section#cv .abm-experiences .xp-hobbies .all-skills .languages-list {
+    text-align: center;
+    margin: 0 auto 10px;
+  }
+  body main section#cv .abm-experiences .xp-hobbies .all-skills .languages-list ul li p {
+    width: 100%;
+  }
+  body main section#cv .abm-experiences .xp-hobbies .all-skills .softSkills-hobbies {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body main section#cv .abm-experiences .xp-hobbies .all-skills .softSkills-hobbies .softSkills {
+    width: 55%;
+    padding: 0;
+  }
+  body main section#cv .abm-experiences .xp-hobbies .all-skills .softSkills-hobbies .hobbies {
+    padding: 0;
+    border-left: 2px solid white;
+    padding: 0% 0% 0 2.5%;
+    width: 45%;
+  }
+  body main section#projects .parent-projects-list .projects-list .project:hover .click-for-screenshots {
+    display: block;
+  }
+  body footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body footer .main-footer h4 {
+    font-size: 34px;
+  }
+  body footer .main-footer h5 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  body footer .main-footer p {
+    opacity: 0.4;
+    font-size: 18px;
+  }
+  body footer .div-btns-footer button {
+    margin: 2% 5%;
+  }
+  body footer .div-btns-footer button a i {
+    font-size: 30px;
+  }
+  body footer .div-btns-footer button a span {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=portfolio.css.map */

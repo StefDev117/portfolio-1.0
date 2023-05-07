@@ -1,0 +1,25 @@
+$mainBlue: #020426;
+$elBlack: #272727;
+$maxWidth: 1920px;
+$html: #c84720;
+$css: #1572b6;
+$sass: #c75093;
+$javascript: #e2ca53;
+$react: #04a0c9;
+$nodeJs: #266618;
+$github: #f4f4f4;
+$mongoDb: #52b73c;
+$lighthouse: #1217bc;
+
+$bigFont: 42px;
+
+@mixin centerFCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
